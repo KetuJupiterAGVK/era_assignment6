@@ -1,0 +1,21 @@
+{
+  "architecture": {
+    "has_fc": true,
+    "has_gap": true,
+    "batch_norm_count": 3,
+    "dropout_probs": [
+      0.1
+    ],
+    "output_shape": [
+      64,
+      10
+    ],
+    "parameter_count": 3818
+  },
+  "performance": {
+    "inference_time": 114.63,
+    "device": "cpu",
+    "valid_probabilities": true,
+    "model_stability": true
+  }
+}
